@@ -23,7 +23,7 @@ El objetivo principal fue simular un entorno de análisis de vuelo de un dron, i
 ## Capturas
 
 - **Captura 01**: Interfaz mostrando las gráficas de posición X, posición Y y batería en función del tiempo.  
-  ![Interfaz](screenshot.png)
+  ![Interfaz](https://github.com/SantiagoBaeza/Registro-y-an-lisis-de-datos-de-dron-.DAT-/blob/main/captura.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ El objetivo principal fue simular un entorno de análisis de vuelo de un dron, i
 
 ## Archivos disponibles
 
-Además del código fuente, este repositorio incluye un archivo de ejemplo **`registro_dron.dat`** con datos reales/simulados del dron.  
+Además del código fuente, este repositorio incluye un archivo de ejemplo [registro_dron.dat](https://github.com/SantiagoBaeza/Registro-y-an-lisis-de-datos-de-dron-.DAT-/blob/main/registro_dron.dat) con datos reales/simulados del dron.  
 De esta manera, cualquier persona puede abrir el proyecto, cargar el archivo y comprobar el funcionamiento completo de la aplicación sin necesidad de generar datos propios.
 
 ---
@@ -61,7 +61,7 @@ De esta manera, cualquier persona puede abrir el proyecto, cargar el archivo y c
 ## Comentarios finales
 
 Los archivos del proyecto están incluidos en este repositorio para que cualquier persona pueda descargarlos y compilarlos localmente en **Qt** con la librería **QCustomPlot**.  
-De esta manera, es posible revisar el código, ejecutar la aplicación y comprobar tanto la lectura de archivos binarios como la representación gráfica de los datos del dron.  
+De esta manera, es posible revisar el código, ejecutar la aplicación y comprobar tanto la lectura de archivos binarios como la representación gráfica de los datos del dron. Se agrego la carpeta [QtParserPlot.zip](https://github.com/SantiagoBaeza/Registro-y-an-lisis-de-datos-de-dron-.DAT-/blob/main/QtParserPlot.zip) la cual contiene la DLL de QCustomPlot y tambien contiene las de MuParser las cuales se van a usar en el futuro, con el fin de que esta DLL sea reutilizable las coloque ambas en el mismo lugar, esa carpeta se debe colocar junto a las carpetas del disco local C: (del ordenador) para acceder desde el codigo ahi.  
 
 Este ejercicio tiene como objetivo servir de práctica avanzada en la **lectura y análisis de datos con Qt**, reforzar el manejo de archivos binarios y dejar registro de mis avances en programación aplicada a sistemas de control y visualización.
 
