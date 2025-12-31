@@ -51,6 +51,13 @@ El objetivo principal fue simular un entorno de análisis de vuelo de un dron, i
 
 ---
 
+## Archivos disponibles
+
+Además del código fuente, este repositorio incluye un archivo de ejemplo **`registro_dron.dat`** con datos reales/simulados del dron.  
+De esta manera, cualquier persona puede abrir el proyecto, cargar el archivo y comprobar el funcionamiento completo de la aplicación sin necesidad de generar datos propios.
+
+---
+
 ## Comentarios finales
 
 Los archivos del proyecto están incluidos en este repositorio para que cualquier persona pueda descargarlos y compilarlos localmente en **Qt** con la librería **QCustomPlot**.  
